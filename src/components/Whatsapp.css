@@ -1,0 +1,78 @@
+
+.page {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+    grid-gap: 10px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+  }
+  
+.grid-item {
+    background-color: white;
+    color: black;
+    width: 75%;
+    padding-left: 0px;
+    font-size: 25px;
+    font-size: x-large;
+    
+  }
+
+h2{
+    display: flex;
+    color: black;
+    margin-block-start: 0cm;
+    text-align: left;
+}
+
+
+.whats {
+    
+    color: midnightblue;
+}
+
+.email {
+    
+    color: midnightblue;
+}
+
+.maps1{
+    display: flex;
+    margin-bottom: 0cm;
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+    .page {
+        padding-bottom: 10%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    img {
+        width: 9px;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    a {
+        font-size: medium;
+    }
+
+    .map {
+        width: 100%;
+        height: 100%;
+    }
+
+}
